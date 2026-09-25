@@ -5,3 +5,9 @@
 .work .back{display:block;margin:0 0 34px;padding:10px 14px;border:1px solid #ffffff18;border-radius:12px;background:#091e30;width:max-content}
 .work .back+small{display:block;margin-top:4px}
 @media(max-width:650px){.work .back{margin-bottom:30px}}
+
+
+/* Keep Back and section label visually separated in every REGNSKAP work view. */
+.work>.back{display:flex!important;align-items:center;justify-content:center;min-height:42px;margin:0 0 42px!important;padding:10px 15px!important;line-height:1.2}
+.work>.back+small{display:block!important;clear:both;margin:0 0 8px!important;padding:0!important;line-height:1.4;letter-spacing:.08em}
+@media(max-width:650px){.work>.back{margin-bottom:38px!important}.work>.back+small{margin-bottom:7px!important}}
