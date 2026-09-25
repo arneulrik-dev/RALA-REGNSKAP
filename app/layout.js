@@ -1,0 +1,1 @@
+import "./globals.css"; export const metadata={title:"RALA REGNSKAP",description:"Regnskap gjort enkelt"}; export default function RootLayout({children}){return <html lang="nb"><body>{children}</body></html>}
