@@ -27,3 +27,13 @@
 @media(max-width:650px){.goImport>div{grid-template-columns:1fr}}
 
 .draftRow{width:100%;color:inherit;text-align:left;cursor:pointer;font:inherit}.draftRow:hover{border-color:#38b6ff66}.emptyDrafts{color:#8fa4b4;padding:12px 0 20px}.draftLines{margin:5px 0 18px;padding:15px;border:1px solid #ffffff16;border-radius:14px;background:#051522}.draftLines>b{display:block;margin-bottom:9px}.draftLines>div{display:flex;justify-content:space-between;gap:15px;padding:8px 0;border-top:1px solid #ffffff0d;color:#b8c8d4}.deleteDraft{width:100%;margin-top:10px;border:1px solid #ff6b6b55;border-radius:15px;padding:13px;background:#40191b;color:#ffb5b5;font-weight:800;cursor:pointer}
+
+.editableLine{display:grid!important;grid-template-columns:minmax(150px,2fr) 80px 110px auto 38px;gap:8px!important;align-items:center}
+.editableLine input{min-width:0;padding:10px;border:1px solid #ffffff18;border-radius:10px;background:#06131e;color:#fff}
+.editableLine button,.addLine,.attachmentRow button{border:1px solid #ffffff20;border-radius:10px;padding:9px;background:#0b2030;color:#d9ecf8;cursor:pointer}
+.addLine{margin-top:10px;width:100%}
+.draftAttachments{margin:16px 0;padding:15px;border:1px solid #ffffff16;border-radius:14px;background:#051522}
+.draftAttachments>b{display:block;margin-bottom:10px}
+.attachmentRow{display:flex;gap:8px;justify-content:space-between;align-items:center;margin-top:8px}
+.attachmentRow button:first-child{flex:1;text-align:left;overflow:hidden;text-overflow:ellipsis}
+@media(max-width:700px){.editableLine{grid-template-columns:1fr 70px 95px}.editableLine strong{grid-column:1/3}.editableLine button{grid-column:3}.attachmentRow{align-items:stretch;flex-direction:column}}
