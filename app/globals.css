@@ -37,3 +37,7 @@
 .attachmentRow{display:flex;gap:8px;justify-content:space-between;align-items:center;margin-top:8px}
 .attachmentRow button:first-child{flex:1;text-align:left;overflow:hidden;text-overflow:ellipsis}
 @media(max-width:700px){.editableLine{grid-template-columns:1fr 70px 95px}.editableLine strong{grid-column:1/3}.editableLine button{grid-column:3}.attachmentRow{align-items:stretch;flex-direction:column}}
+
+.bookDraft{width:100%;margin-top:10px;border:1px solid #4fd59a55;border-radius:15px;padding:13px;background:#0d3828;color:#bfffe0;font-weight:800;cursor:pointer}
+.archiveList{margin-top:18px}
+.archiveNote{margin-top:20px}
