@@ -11,3 +11,17 @@
 .work>.back{display:flex!important;align-items:center;justify-content:center;min-height:42px;margin:0 0 42px!important;padding:10px 15px!important;line-height:1.2}
 .work>.back+small{display:block!important;clear:both;margin:0 0 8px!important;padding:0!important;line-height:1.4;letter-spacing:.08em}
 @media(max-width:650px){.work>.back{margin-bottom:38px!important}.work>.back+small{margin-bottom:7px!important}}
+
+
+/* RALA GO -> REGNSKAP test handoff */
+.goImport{margin:20px 0 26px;padding:22px;border:1px solid #38b6ff66;border-radius:22px;background:linear-gradient(180deg,#0b2940,#081d2e);box-shadow:0 16px 40px #0004}
+.goImport>small{display:block;color:#55c3ff;font-weight:900;letter-spacing:.1em;margin-bottom:7px}
+.goImport h2{margin:0 0 8px;font-size:22px}
+.goImport p{margin:5px 0;color:#b8c8d4}
+.goImportItems{font-size:13px;line-height:1.5}
+.goImport>div{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin:17px 0}
+.goImport>div span{background:#ffffff08;border-radius:12px;padding:11px;color:#9fb3c1;font-size:11px}
+.goImport>div b,.goImport>div strong{display:block;color:#fff;font-size:14px;margin-top:4px}
+.goImport>div strong{color:#5de69a}
+.goImportCancel{width:100%;margin-top:9px;border:1px solid #ffffff1c;border-radius:13px;padding:12px;background:transparent;color:#aebdca;font-weight:800}
+@media(max-width:650px){.goImport>div{grid-template-columns:1fr}}
