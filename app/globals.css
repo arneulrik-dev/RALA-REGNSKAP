@@ -25,3 +25,5 @@
 .goImport>div strong{color:#5de69a}
 .goImportCancel{width:100%;margin-top:9px;border:1px solid #ffffff1c;border-radius:13px;padding:12px;background:transparent;color:#aebdca;font-weight:800}
 @media(max-width:650px){.goImport>div{grid-template-columns:1fr}}
+
+.draftRow{width:100%;color:inherit;text-align:left;cursor:pointer;font:inherit}.draftRow:hover{border-color:#38b6ff66}.emptyDrafts{color:#8fa4b4;padding:12px 0 20px}.draftLines{margin:5px 0 18px;padding:15px;border:1px solid #ffffff16;border-radius:14px;background:#051522}.draftLines>b{display:block;margin-bottom:9px}.draftLines>div{display:flex;justify-content:space-between;gap:15px;padding:8px 0;border-top:1px solid #ffffff0d;color:#b8c8d4}.deleteDraft{width:100%;margin-top:10px;border:1px solid #ff6b6b55;border-radius:15px;padding:13px;background:#40191b;color:#ffb5b5;font-weight:800;cursor:pointer}
